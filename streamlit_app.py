@@ -119,7 +119,7 @@ def illustrations(df):
 # st.header('ESG Carbon Offset Optimization')
 
 with st.sidebar:
-    st.image('https://coherentcapital-my.sharepoint.com/:i:/r/personal/mark_banaria_coherent_global/Documents/Microsoft%20Teams%20Chat%20Files/pw-by-coherent.png?csf=1&web=1&e=1C0J39')
+    st.image('https://drive.google.com/uc?export=view&id=1UZ-YcQm-K5JNaRd1uAZNNBqInqSYIBH5')
     xInput_a_Country = st.selectbox('Country', ('France', 'Germany', 'Italy', 'Switzerland'))
     xInput_b_CO2_Emitted = st.number_input('Average Amount of CO2 emitted', 905.98)
 
