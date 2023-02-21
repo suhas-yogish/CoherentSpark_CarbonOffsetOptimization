@@ -63,16 +63,6 @@ def CallSparkEngine(xInput_a_Country, xInput_b_CO2_Emitted, xInput_1_FET, xInput
               "a_Country": xInput_a_Country,
               "b_CO2_Emitted": xInput_b_CO2_Emitted
             }
-       },
-       "request_meta": {
-          "version_id": "fdc3dce6-cc5b-4255-93fd-1c9bf5111be9",
-          "transaction_date": "2023-01-31T03:51:43.130Z",
-          "call_purpose": "",
-          "source_system": "",
-          "correlation_id": "",
-          "service_category": "",
-          "compiler_type": "Neuron",
-          "requested_output": None
        }
     })
     headers = {
@@ -121,7 +111,7 @@ def illustrations(df):
 with st.sidebar:
     st.image('https://drive.google.com/uc?export=view&id=1UZ-YcQm-K5JNaRd1uAZNNBqInqSYIBH5')
     xInput_a_Country = st.selectbox('Country', ('France', 'Germany', 'Italy', 'Switzerland'))
-    xInput_b_CO2_Emitted = st.number_input('Average Amount of CO2 emitted', 905.98)
+    xInput_b_CO2_Emitted = st.number_input('Average Amount of CO2 emitted (tonne)', 905.98)
 
     st.subheader('Tax (Average in Currency Unit per tCO2e)')
     xInput_1_FET = st.slider('Fuel Exercise Tax', 0.0, 100.0, 20.0)
