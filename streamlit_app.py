@@ -114,7 +114,7 @@ with st.sidebar:
     xInput_b_CO2_Emitted = st.number_input('Average Amount of CO2 emitted (tonne)', 905.98)
 
     st.subheader('Tax (Average in Currency Unit per tCO2e)')
-    xInput_1_FET = st.slider('Fuel Exercise Tax', 0.0, 100.0, 20.0)
+    xInput_1_FET = st.slider('Fuel Excise Tax', 0.0, 100.0, 20.0)
     xInput_2_CT = st.slider('Carbon Tax', 0.0, 10.0, 2.0)
     xInput_3_ETS_PP = st.number_input('ETS Permit Price', 0.0)
     xInput_4_FF_subsidy = st.number_input('Fossil Fuel Subsidy', 0.10)
